@@ -15,31 +15,31 @@ body{
 }
 nav{
     background: linear-gradient(to left,rgb(60, 60, 197),black);
-    height: 80em;
+    height: 80px;
     width: 100%;
 }
 nav label.logo{
     color: white;
-    font-size: 40em;
-    line-height: 80em;
-    padding-left: 80em;
+    font-size: 40px;
+    line-height: 80px;
+    padding-left: 80px;
     font-weight: bold;
 }
 nav ul{
     float: right;
-    margin-right: 20em;
+    margin-right: 20px;
 }
 nav ul li{
     display: inline-block;
-    line-height: 80em;
-    margin-right: 30em;
+    line-height: 80px;
+    margin-right: 30px;
 }
 nav ul li a{
     color:white;
-    padding: 3em 10em;
+    padding: 3px 10px;
     background:transparent;
-    border-radius: 6em;
-    font-size: 20em;
+    border-radius: 6px;
+    font-size: 20px;
     font-weight: bold;
 }
 a:hover{
@@ -48,20 +48,20 @@ a:hover{
 }
 marquee{
     background-color: brown;
-    height: 50em;
+    height: 50px;
 
 }
 .scroll{
-    font-size: 30em;
-    line-height: 50em;
+    font-size: 30px;
+    line-height: 50px;
     color: white;
 }
 
 .container{
-    height: 400em;
-    width: 350em;
-    margin: 50em 100em;
-    padding: 40em;
+    height: 400px;
+    width: 350px;
+    margin: 50px 100px;
+    padding: 40px;
     background: linear-gradient(to left,brown,blue);
     color: white;
     border-style: solid;
@@ -69,41 +69,41 @@ marquee{
 }
 .heading{
     text-align: center; 
-    margin-bottom: 10em;    
+    margin-bottom: 10px;    
 }
 .head-text{
     font-style: bolder; 
-    font-size: 20em;
+    font-size: 20px;
 }
 .part1{
-    margin: 20em 10em;
+    margin: 20px 10px;
     width: 100%;
 }
 .subpart1{
-    margin: 7em;
+    margin: 7px;
     width: 100%;
-    font-size: 20em;
+    font-size: 20px;
 }
 .subpart2{
-    margin: 7em;
+    margin: 7px;
     width: 100%;
-    margin-left: 20em;
+    margin-left: 20px;
 }
 .subpart3{
-    margin: 7em;
+    margin: 7px;
     width: 100%;
-    margin-left: 60em;
+    margin-left: 60px;
 }
 .opt{
     width: 80%;
     outline: none;
-    border-radius: 8em;
-    font-size: 20em;
+    border-radius: 8px;
+    font-size: 20px;
 }
 .opt2{
     width: 40%;
     outline: none;
-    border-radius: 8em;
-    font-size: 20em;
+    border-radius: 8px;
+    font-size: 20px;
     background: linear-gradient(to right, white ,aqua);
 }
