@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="login-register.css">
+
+</head>
+<body>
+    <div>
+        <nav>
+            <label class="logo" for="logo">
+                Indian Railways
+            </label>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pnr.html">PNR Status</a>
+                </li>
+                <li>
+                    <a href="train-status.html">Train Status</a>
+                </li>
+                <li>
+                    <a href="login-register.html">Login / Register</a>
+                </li>
+                <li>
+                    <a href="">Help / support</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="parent">
+        <div class="child left">
+            <div class="inst">
+                <h2>Instructions need to follow for login and Register  :</h2>
+                <div class="subinst">
+                    <ul>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                        <li>jbEHJB</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="child right">
+            <div class="form">
+                <div class="buttons">
+                    <div id="btn"></div>
+                    <button type="button" class="log" onclick="login()">Login</button>
+                    <button type="button" class="log" onclick="register()">Register</button>
+                </div>
+                <div>
+                    <form id="ln" class="input" action="">
+                        <input type="text" class="input-field" placeholder="      User ID" required>
+                        <input type="password" class="input-field" placeholder="      Password" required>
+                        <input type="checkbox" class="check-box"><span class="rem">Remember me</span>
+                        <button type="submit" class="submit-btn">Login</button>
+                    </form>
+                    <div class="forgot" id="ln1">
+                        <a class="flink" href="forgot.html">Forgot password?</a>
+                    </div>
+                    <form id="reg" class="input">
+                        <input type="text" class="input-field" placeholder="  First name" required>
+                        <input type="text" class="input-field" placeholder="  Last name" >
+                        <span class="gender1">Gender :</span>
+                        <input type="radio"  name="gender" value="male"> <span class="gender"> Male</span>
+                        <input type="radio"  name="gender"  value="female"><span class="gender"> Female</span>
+                        <input type="text" class="input-field" placeholder="   Mobile number" required>
+                        <span class="dob">Date of Birth :</span>
+                        <input type="date" class="date" name="" id="">
+                        <button type="submit" class="submit-btn">Register</button>
+                        
+                    </form>
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        var x=document.getElementById("ln");
+        var a=document.getElementById("ln1");
+        var y=document.getElementById("reg");
+        var z=document.getElementById("btn");
+
+        function register(){
+            x.style.left ="-450px";
+            a.style.left ="-450px"
+            y.style.left ="50px";
+            z.style.left ="110px";
+        };
+        function login(){
+            x.style.left ="50px";
+            a.style.left= "50px"
+            y.style.left ="450px";
+            z.style.left ="0px";
+        }
+    </script>
+</body>
+</html>

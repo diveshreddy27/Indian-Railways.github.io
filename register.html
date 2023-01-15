@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav>
+        <label class="logo" for="logo">
+            Indian Railways
+        </label>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="login-register.html">Login / Register</a>
+            </li>
+            <li>
+                <a href="">Help / support</a>
+            </li>
+        </ul>
+    </nav>
+    <center>
+    <div class="part1" id="part1">
+        <div>
+            <label class="label"for="">Enter the otp ( sent to your mobile number ) for verification :</label>
+        </div>
+        <div >
+            <input class="inp" type="text">
+        </div>
+        <div>
+            <button class="btn" id="btn2" onclick="fun2()" type="submit">submit</button>
+        </div>
+    </div>
+
+    <div class="part1" id="part2">
+        <div>
+            <label class="label"for="">Create User Name :</label>
+        </div>
+        <div >
+            <input class="inp" type="text" placeholder="User Name">
+        </div>
+        <div>
+            <label class="label"for="">Create new password :</label>
+        </div>
+        <div >
+            <input class="inp" type="password" placeholder="password">
+        </div>
+        <div>
+            <label class="label"for="">Re-enter new password :</label> 
+        </div>
+        <div >
+            <input class="inp" type="password" placeholder="passsword">
+        </div>
+
+        <div>
+            <button class="btn" id="btn3" onclick="fun3()" type="submit">submit</button>
+        </div>
+    </div>
+
+    <div class="part1" id="part3">
+        <div>
+            <label class="smessage" for="">Successfully Registered your Account &#128521;</label> 
+        </div>
+        <div class="lc">
+            <a class= "logclass" href="login-register.html">Return to Login/Register page</a>
+        </div>
+
+    </div>
+    </center>
+    <script>
+        const b=document.getElementById("btn2");
+        const c=document.getElementById("btn3");
+        const d2=document.getElementById("part1");
+        const d3=document.getElementById("part2");
+        const d4=document.getElementById("part3");
+
+        b.onclick =function(){
+            d2.style.display= "none";
+            d3.style.display= "block";
+            d4.style.display= "none";
+        };
+        c.onclick =function(){
+            d2.style.display= "none";
+            d3.style.display= "none";
+            d4.style.display= "block";
+        };
+        
+       
+
+
+
+    </script>
+</body>
+</html>

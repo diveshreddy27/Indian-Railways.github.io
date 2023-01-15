@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="train-status.css">
+</head>
+<body>
+    <div class="leftpart">
+    <div>
+        <nav>
+            <label class="logo" for="">Indian Railways</label>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pnr.html">PNR Status</a>
+                </li>
+                <li>
+                    <a href="train-status.html">Train status</a>
+                </li>
+                <li>
+                    <a href="login-register.html">Login/Register</a>
+                </li>
+                <li>
+                    <a href="">Help/Support</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <div class="container">
+            <div>
+                <div class="head">
+                    <label class="lab" for="">Select and Enter Train Number / Ticket Number : </label>
+                </div>
+                <hr color="black">
+                <div class="buttons">
+                    <button class="btn" id="btn1" type="submit">Train Number</button>
+                    <label class="lab" for="">( or )</label>
+                    <button class="btn" id="btn2" type="submit">Ticket Number</button>
+                </div>
+                <center>
+                <div class="bdy">
+                    <div id="box1" class="box">
+                        <div class="part">
+                            <input class="inp" type="text" placeholder="Train number">
+                        </div>
+                        <div class="part">
+                            <button class="butn"  type="submit" onclick="fun1()">Submit</button>
+                        </div>
+                    </div>
+                    <div id="box2" class="box">
+                        <div class="part">
+                            <input class="inp" type="text" placeholder="Ticket number">
+                        </div>
+                        <div class="part">
+                            <button class="butn"   type="submit" onclick="fun2()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                </center>
+                <div class="opt">
+                    <h2>Note :</h2>
+                    <p class="opt1">Train status can be known through Ticket number also.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const b1 = document.getElementById("box1");
+        const b2 = document.getElementById("box2");
+        const a = document.getElementById("btn1");
+        const b = document.getElementById("btn2");
+
+        a.onclick = function(){
+            b2.style.display="none";
+            b1.style.display="block";
+            a.style.color="white"
+            a.style.background="black"
+            b.style.background="white"
+            b.style.color="black"
+        };
+        b.onclick = function(){
+            b1.style.display="none";
+            b2.style.display="block";
+            b.style.color="white"
+            b.style.background="black"
+            a.style.background="white"
+            a.style.color="black"
+        };
+    </script>
+</body>
+</html>
